@@ -1,46 +1,46 @@
 # 1EAI-WT-DartPalace #
-##HTML
+##HTML##
 [link DartPalace site](**under construction**)
 
 
 
 
-##MarkDown
+##MarkDown##
 
 
 
 
 
-##CSS
+##CSS##
 
 
 
 
-##Bootstrap
+##Bootstrap##
 
 
 
 
 
-##JavaScript
+##JavaScript##
 ** temp**
 - C programming code to transfor to Java
 
 
 
 
-##Ajax
+##Ajax##
 
 
 
 
-##PHP
+##PHP##
 
 
 
 
 
-##SQL
+##SQL##
 
 
 
