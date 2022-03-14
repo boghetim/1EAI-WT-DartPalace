@@ -12,7 +12,7 @@
 
 
 ## CSS ##
-DartPalace.css file (need to refine + insert to HTML file
+DartPalace.css
 
 
 
