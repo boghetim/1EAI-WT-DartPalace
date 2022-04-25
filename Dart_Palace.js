@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-
-<script language="javascript" type="text/javascript">
-
 $(function(){
   var max = 501;
   var possibleOuts = {
