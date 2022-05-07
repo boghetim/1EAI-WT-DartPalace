@@ -1,50 +1,50 @@
 # 1EAI-WT-DartPalace #
 ## HTML ##
-[X] HTML
+- [X] HTML
 DartPalace.HTML
 
 
 
 
 ## MarkDown ##
-[X] MD 
+- [X] MD 
 
 
 
 
 
 ## CSS ##
-[X] CSS
+- [X] CSS
 DartPalace.css
 
 
 
 ## Bootstrap ##
-[] bs
+- [] bs
 
 
 
 
 ## JavaScript ##
-[X] Js
+- [X] Js
 DartPalace.js
 
 
 
 
 ## Ajax ##
-[] Ajax
+- [] Ajax
 
 
 
 ## PHP ##
-[] PHP
+- [] PHP
 
 
 
 
 ## SQL ##
-[] SQL
+- [] SQL
 
 
 
