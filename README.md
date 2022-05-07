@@ -20,7 +20,7 @@ DartPalace.css
 
 
 ## Bootstrap ##
-- [] bs
+- [ ] bs
 
 
 
@@ -33,18 +33,18 @@ DartPalace.js
 
 
 ## Ajax ##
-- [] Ajax
+- [ ] Ajax
 
 
 
 ## PHP ##
-- [] PHP
+- [ ] PHP
 
 
 
 
 ## SQL ##
-- [] SQL
+- [ ] SQL
 
 
 
