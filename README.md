@@ -20,8 +20,8 @@ DartPalace.css
 
 
 ## Bootstrap ##
-- [ ] bs
-
+- [x] bs
+DartPalace.HTML
 
 
 
