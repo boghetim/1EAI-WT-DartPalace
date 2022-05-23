@@ -4,12 +4,12 @@
 
    if($_SERVER["REQUEST_METHOD"] == "POST") {
       // username and password sent from form
-  echo $_POST['username'];
+
       $myusername = mysqli_real_escape_string($db,$_POST['username']);
       $mypassword = mysqli_real_escape_string($db,$_POST['password']);
-  echo $myusername;
+
       $sql = "SELECT id FROM users WHERE username = '$myusername' and password = '$mypassword'";
-      echo $sql;
+
       $result = mysqli_query($db,$sql);
       $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
       $active = $row['active'];
@@ -22,7 +22,7 @@
          session_register("myusername");
          $_SESSION['login_user'] = $myusername;
 
-         header("location: welcome.php");
+         header("location: index.html");
       }else {
          $error = "Your Login Name or Password is invalid";
       }
