@@ -22,7 +22,7 @@
          session_register("myusername");
          $_SESSION['login_user'] = $myusername;
 
-         header("location: index.html");
+         header("location: google.com");
       }else {
          $error = "Your Login Name or Password is invalid";
       }
