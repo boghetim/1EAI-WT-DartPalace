@@ -164,17 +164,7 @@ $(function(){
       }
 
       if(score > 180) {
-      //alert('Score cannot be higher than 180'); 
-        <script>
-function loadDoc() {
-  const xhttp = new XMLHttpRequest();
-  xhttp.onload = function() {
-    document.getElementById("demo").innerHTML = this.responseText;
-  }
-  xhttp.open("GET", "180ajax.jpg");
-  xhttp.send();
-}
-</script>
+        alert('Score cannot be higher than 180');
         return;
       }
 
