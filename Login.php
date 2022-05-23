@@ -7,7 +7,7 @@
   echo $_POST['username'];
       $myusername = mysqli_real_escape_string($db,$_POST['username']);
       $mypassword = mysqli_real_escape_string($db,$_POST['password']);
-
+  echo $myusername;
       $sql = "SELECT id FROM users WHERE username = '$myusername' and password = '$mypassword'";
       echo $sql;
       $result = mysqli_query($db,$sql);
