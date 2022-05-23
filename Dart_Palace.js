@@ -126,7 +126,7 @@ $(function(){
     167 : ['T20 T19 BULL'],
     170 : ['T20 T20 BULL']
 };
-  
+
   $('#js-start').on('click', function(){
     var scoreColumns = $('.column--score');
     scoreColumns.removeClass('column--active').find('.score').text('501');
@@ -134,19 +134,19 @@ $(function(){
 
     var rounds = $('.list--rounds').hide();
     rounds.find('.list__items').empty();
-    
+
     $('.num-pad__display').val('');
     $('.list--outs').hide();
   });
-  
+
   $('.num-pad__button--numeric').on('click', function() {
-      $('.num-pad__display').val($('.num-pad__display').val() + $(this).text());        
+      $('.num-pad__display').val($('.num-pad__display').val() + $(this).text());
   });
-  
+
    $('.num-pad__button--clear').on('click', function() {
      $('.num-pad__display').val('');
    });
-  
+
   $('.num-pad__button--delete').on('click', function() {
      var score = $('.num-pad__display').val();
      if(score) {
@@ -154,20 +154,30 @@ $(function(){
        $('.num-pad__display').val(score);
      }
    });
-  
+
    $('.num-pad__button--submit').on('click', function() {
       var score = $('.num-pad__display').val();
-      
+
       if (!score) {
         alert('Please enter a score');
         return;
       }
-     
+
       if(score > 180) {
         alert('Score cannot be higher than 180');
+        <script>
+function loadDoc() {
+  const xhttp = new XMLHttpRequest();
+  xhttp.onload = function() {
+    document.getElementById("demo").innerHTML = this.responseText;
+  }
+  xhttp.open("GET", "180ajax.jpg");
+  xhttp.send();
+}
+</script>
         return;
       }
-     
+
       var currentplayer = $('.column--score.column--active');
       var otherPlayer = $('.column--score').not('.column--active');
       var previousScore = currentplayer.find('.score');
@@ -175,14 +185,14 @@ $(function(){
       var scoreRemaining = previousScoreText - score;
       var rounds = currentplayer.find('.list--rounds').show();
       var outs = currentplayer.find('.list--outs').hide();
-     
+
       if (possibleOuts[scoreRemaining]) {
         var outslist = outs.find('.list__items');
         outslist.empty();
         outslist.append('<li>' + possibleOuts[scoreRemaining].join('</li><li>') + '</li>');
         outs.show();
       }
-     
+
       if (scoreRemaining > 1) {
         previousScore.text(scoreRemaining);
         rounds.find('.list__items').append('<li>' + previousScoreText + '<li>');
@@ -191,7 +201,7 @@ $(function(){
       } else {
         rounds.find('.list__items').append('<li>Bust<li>');
       }
-     
+
       currentplayer.removeClass('column--active');
       otherPlayer.addClass('column--active');
       $('.num-pad__display').val('');
