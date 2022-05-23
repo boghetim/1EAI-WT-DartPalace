@@ -164,7 +164,7 @@ $(function(){
       }
 
       if(score > 180) {
-        alert('Score cannot be higher than 180');
+      //alert('Score cannot be higher than 180'); 
         <script>
 function loadDoc() {
   const xhttp = new XMLHttpRequest();
