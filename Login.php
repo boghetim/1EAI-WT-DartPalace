@@ -1,5 +1,5 @@
 <?php
-   include("config.php");
+   include("Config.php");
    session_start();
 
    if($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -27,7 +27,7 @@
       }
    }
 ?>
-<!--
+
 <html>
 
    <head>
@@ -74,4 +74,3 @@
 
    </body>
 </html>
--->
