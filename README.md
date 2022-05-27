@@ -33,18 +33,18 @@ DartPalace.js
 
 
 ## Ajax ##
-- [ ] Ajax
+- [X] Ajax
 
 
 
 ## PHP ##
-- [ ] PHP
+- [X] PHP
 
 
 
 
 ## SQL ##
-- [ ] SQL
+- [X] SQL
 
 
 
